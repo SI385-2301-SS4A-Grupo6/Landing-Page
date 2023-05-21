@@ -9,6 +9,9 @@
     letter-spacing: 0.5px;
     font-weight: 400;
 }
+html,body{
+    height: 100%;
+}
 header{
     position: fixed;
     top: 0;
@@ -41,7 +44,7 @@ header p{
     display: inline-block;
     margin:0;
     color: #333;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 120%;
 }
 header .navbar{
@@ -99,4 +102,91 @@ header .navbar .download-btn{
     cursor:pointer;
     font-size: 1.5rem;
     text-decoration: none;
+}
+.home .content .color{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.contacto{
+    display: flex;
+    align-items: center;
+    min-height: 67vh;
+    background: url(../Images/fondo_contacto.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.formulario_contacto{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    top: 178px;
+    right: 5%;
+    position: relative;
+    flex-direction: column;
+    padding: 4vh;
+    background-color: white;
+    border-radius: 20px;
+    justify-content: center;
+    margin-left: auto;
+}
+.input{
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #F9F9FF;
+    margin-top: 10px;
+}
+.btn_EnviarFormulario{
+    border: none;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 30px;
+    width:90%;
+    margin: 10px auto;
+    background-color: #32120E;
+    color:#fff;
+}
+#nombre,#email{
+    height: 60px;
+    width: 100%;
+}
+#mensaje{
+    width: 100%;
+    height: 120px;
+    padding-top: 10px;
+}
+.footer{
+    background-color: #FA9630;
+    min-height: 20vh;
+    display: flex;
+}
+.direcciones{
+    width: 25%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.numeros{
+    width: 15%;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+ul {
+    list-style-type: none;
+}
+.tituloFormulario{
+    font-size: 24px;
+    font-weight: bold;
+    color:#5D5A88;
+}
+.descripcionFormulario{
+    font-size: 15px;
+}
+.tituloFooter{
+    font-size: 22px;
+    color: #fff;
+    font-weight: bold;
 }
