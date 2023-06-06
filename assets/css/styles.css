@@ -264,6 +264,78 @@ a {
 
 /*========ADOPTA SECTION=======*/
 
+.adopta {
+  margin: 5em 0;
+}
+.adopta span{
+  color:#FA9630
+}
+.adopta h1{
+  font-size: var(--biggest-font-size);
+  text-align: center;
+}
+.adopta h3 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 4.5em;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  width: 300px;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+.card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin-bottom: 10px;
+}
+
+.card .adoptar-btn {
+  padding: 10px 20px;
+  background-color:#FA9630;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-family: var(--body-font);
+  border-radius: 20px;
+}
+
+.card .adoptar-btn:hover {
+  background-color:#faac5d;
+}
+
+@media (max-width: 606px) {
+  .card {
+    width: 100%;
+  }
+}
+
 /*============USUARIOS SECTION======*/
 
 /*========NOSOTROS SECTION========*/
