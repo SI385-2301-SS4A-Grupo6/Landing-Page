@@ -2,7 +2,7 @@
 
 :root {
   --header-height: 3.5rem;
-  --first-color: hsl(38, 69%, 59%);
+  --first-color:#FA9630;
   --text-color: hsl(38, 8%, 8%);
   --body-font: 'Space Grotesk', sans-serif;
   --biggest-font-size: 1.5rem;
@@ -110,7 +110,7 @@ a {
   }
   
   .nav__link:hover{
-    color:#FA9630
+    color:#32120E;
   }
   
   .nav__close {
