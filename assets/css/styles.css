@@ -338,8 +338,55 @@ a {
 
 /*============USUARIOS SECTION======*/
 
-/*========NOSOTROS SECTION========*/
+/*=========NOSOTROS SECTION =============*/
 
+.nosotros {
+  margin: 5em 0;
+}
+
+.nosotros h1{
+  font-size: var(--biggest-font-size);
+  text-align: center;
+}
+.nosotros h3 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.nosotros-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2em;
+}
+
+.nosotros-card img{
+  width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+
+.nosotros-card {
+  width: 400px;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.carrera{
+  font-size: 13px;
+  color: #636363;
+}
+
+@media (max-width: 768px) {
+  .nosotros-card {
+    width: 100%;
+  }
+}
 /*=======DESCARGAR SECTION========*/
 
 
