@@ -176,6 +176,13 @@ a {
   }
 }
 
+/* For 4K resolutions (3840 x 2160, 4096 x 2160) */
+@media screen and (min-width: 3840px) {
+    body {
+      zoom: 3.1;
+    }
+  }
+
 /*=============== HOME ===============*/
 .home {
     position: relative;
@@ -254,9 +261,114 @@ a {
     }
   }
 
-/* For 4K resolutions (3840 x 2160, 4096 x 2160) */
-@media screen and (min-width: 3840px) {
-  body {
-    zoom: 3.1;
+/*======CONTACTO SECTION=======*/
+.contacto {
+    display: flex;
+    align-items: center;
+    min-height: 71vh;
+    background: url(/Landing-Page/assets/img/footer.png) no-repeat;
+    background-size: cover;
+    background-position: center;
   }
-}
+  
+  .formulario_contacto {
+    width: 500px;
+    height: 600px;
+    display: flex;
+    top: 178px;
+    right: 5%;
+    position: relative;
+    flex-direction: column;
+    padding: 4vh;
+    background-color: white;
+    border-radius: 20px;
+    justify-content: center;
+    margin-left: auto;
+  }
+  
+  .tituloFormulario{
+    color:#5D5A88;
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .descripcionFormulario{
+    margin-bottom: 1em;
+  }
+  
+  .input {
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #F9F9FF;
+    margin-top: 10px;
+    font-family: var(--body-font);
+    color:#ADABC3;
+  }
+  
+  .btn_EnviarFormulario {
+    border: none;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 30px;
+    width: 90%;
+    margin: 10px auto;
+    background-color: #32120E;
+    color: #fff;
+    font-family: var(--body-font);
+  }
+  
+  #nombre,
+  #email {
+    height: 60px;
+    width: 100%;
+  }
+  
+  #mensaje {
+    width: 100%;
+    height: 120px;
+    padding-top: 10px;
+  }
+  @media (max-width: 768px) {
+    .formulario_contacto{
+      width: 300px;
+      height: 400px;
+      top: 50%;
+      right: 23%;
+    }
+  }
+  @media (max-width: 1500px) {
+    .formulario_contacto{
+      width: 400px;
+      height: 500px;
+      top: 178px;
+      right: 5%;
+    }
+  }
+  @media (max-width: 1400px) {
+    .formulario_contacto{
+      top: 50%;
+      right: 15%;
+    }
+  }
+  
+  /*=== FOOTER SECTION ====*/
+  
+  .hp_footer {
+    background-color: #FA9630;
+    min-height: 20vh;
+    display: flex;
+  }
+  
+  .hp_footer .tituloFooter {
+    color: white;
+    font-size: 1.9rem;
+    margin: 0.8rem 0;
+  }
+  
+  .columna {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 4rem;
+    max-width: 500px;
+  }
