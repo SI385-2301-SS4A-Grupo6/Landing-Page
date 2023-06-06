@@ -387,8 +387,71 @@ a {
     width: 100%;
   }
 }
-/*=======DESCARGAR SECTION========*/
+/* === DESCARGAR SECTION ===*/
+.descargar {
+  padding: 5em 0;
+  background: #FA9630;
+}
 
+.descargar h1{
+  font-size: var(--biggest-font-size);
+  text-align: center;
+  color: white;
+}
+
+.descargar_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.column{
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.column h3 {
+  font-size: 2rem;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  text-align: center;
+  color: white;
+}
+
+.column p{
+  font-size: 1.2rem;
+  color: white;
+  margin-bottom: 0.5em;
+}
+
+.descargar_container .mockup{
+  width: 300px;
+  height: auto;
+}
+.column-right .store{
+  width: 200px;
+}
+@media (max-width: 768px) {
+  .descargar_container .mockup{
+    width: 300px;
+    height: auto;
+  }
+  .column h3 {
+    font-size: 1.5rem;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    color: white;
+  }
+  
+  .column p{
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 0.5em;
+  }
+}
 
 /*======CONTACTO SECTION=======*/
 .contacto {
