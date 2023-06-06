@@ -12,7 +12,7 @@ Hairy Paws es una aplicación diseñada para ayudarte a encontrar tu compañero 
 
 - Interacción con las organizaciones de rescate: Hairy Paws colabora con diversas organizaciones de rescate y refugios de animales. A través de la aplicación, puedes comunicarte directamente con estas organizaciones, hacer preguntas adicionales, programar visitas y realizar el proceso de adopción.
 
- Favoritos y notificaciones: Si encuentras una mascota que te encanta, puedes agregarla a tus favoritos para acceder fácilmente a su perfil más tarde. Además, puedes activar notificaciones para recibir alertas sobre nuevas mascotas en adopción que coincidan con tus preferencias.
+- Favoritos y notificaciones: Si encuentras una mascota que te encanta, puedes agregarla a tus favoritos para acceder fácilmente a su perfil más tarde. Además, puedes activar notificaciones para recibir alertas sobre nuevas mascotas en adopción que coincidan con tus preferencias.
 
 - Historias de éxito y comunidad: Hairy Paws celebra las historias de éxito de adopciones y fomenta una comunidad de amantes de los animales. Puedes compartir tus propias experiencias, obtener consejos y apoyo de otros usuarios de la aplicación, y ayudar a crear conciencia sobre la importancia de la adopción de mascotas.
 
