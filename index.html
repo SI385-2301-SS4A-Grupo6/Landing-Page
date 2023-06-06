@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/assets/img/logo.png" alt="logo">
+    <link rel="icon" href="assets/img/logo.png" alt="logo">
     <!--BOXICONS-->
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <title>Hairy Paws</title>
@@ -13,36 +13,76 @@
 <body>
 
     <!--header section starts-->
-        <header>
-            <a href="#">
-                <img src="/Images/logo.png" class="logo">
-                <p>Hairy<br>Paws</p>
-            </a>
-            <nav class="navbar">
-                <a href="#home"><span>Inicio</span></a>
-                <a href="#adoption"><span>Adopta</span></a>
-                <a href="#opinions"><span>Usuarios</span></a>
-                <a href="#team"><span>Nosotros</span></a>
-                <a href="#contact"><span>Contacto</span></a>
-                <a href="#download" class="download-btn">Descargar</a>
-            </nav>
-
-        </header>
+    <header class="header">
+        <nav class="nav container">
+          <a href="#" class="nav__logo">
+            <img src="assets/img/logo.png" width="50px" height="auto" href="#" class="nav__logo" />
+          </a>
+          <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#home" class="nav__link">Inicio</a>
+              </li>
+              <li class="nav__item">
+                <a href="#adopta" class="nav__link">Adopta</a>
+              </li>
+              <li class="nav__item">
+                <a href="#usuarios" class="nav__link">Usuarios</a>
+              </li>
+              <li class="nav__item">
+                <a href="#nosotros" class="nav__link">Nosotros</a>
+              </li>
+              <li class="nav__item">
+                <a href="#descargar" class="nav__link">Descargar</a>
+              </li>
+            </ul>
+    
+            <div class="nav__close" id="nav-close">
+              <i class='bx bx-x'></i>
+            </div>
+          </div>
+    
+          <!-- Toggle button -->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class='bx bx-grid-alt'></i>
+          </div>
+        </nav>
+      </header>
 
     <!--header section ends-->
 
     <!--home section stars-->
 
-    <section>
-
-
-    </section>
+    <section class="home" id="home">
+        <div class="home__container">
+          <div class="home__data">
+            <h1 class="home__description">
+              Amemos y protejamos
+              juntos a nuestros
+              compañeros animales en
+              este mundo, <span>¡adopta ya!</span>
+            </h1>
+            <p>
+              En HairyPaws, descubre un mundo lleno de
+              amor y compañía animal. Nuestra aplicación te
+              brinda la oportunidad de encontrar a tu
+              compañero peludo perfecto. Con una amplia
+              variedad de adorables mascotas disponibles
+              para adopción, HairyPaws es tu puerta de entrada
+              a una experiencia única de adopción de mascotas.
+            </p>
+            <a href="#adopta" class="home__button">
+              Conoce a nuestros amigos
+            </a>
+          </div>
+        </div>
+      </section>
     
     <!--home section ends-->
 
     <!--adopta section stars-->
 
-    <section>
+    <section class="adopta" id="adopta">
 
     </section>
 
@@ -50,7 +90,7 @@
 
     <!--usuarios section stars-->
 
-    <section>
+    <section class="usuarios" id="usuarios">
 
     </section>
 
@@ -58,7 +98,7 @@
 
     <!--nosotros section stars-->
 
-    <section>
+    <section class="nosotros" id="nosotros">
 
     </section>
 
@@ -66,15 +106,7 @@
 
     <!--descargar section stars-->
 
-    <section>
-
-    </section>
-
-    <!--contacto section ends-->
-
-    <!--descargar section stars-->
-
-    <section>
+    <section class="descargar" id="descargar">
 
     </section>
 
@@ -82,17 +114,17 @@
 
     <!--contacto section stars-->
 
-    <section>
+    <section id="contacto" class="contacto">
 
     </section>
 
     <!--contacto section ends-->
 
     <!--=============== SCROLLREVEAL ===============-->
-  <script src="assets/js/scrollreveal.min.js"></script>
+  <script src="assets/js/main.js"></script>
 
   <!--=============== MAIN JS ===============-->
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/scrollreveal.min.js"></script>
 </body>
 <!--footersection stars-->
 
