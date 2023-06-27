@@ -1,93 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="assets/img/logo.png" alt="logo">
-    <!--BOXICONS-->
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-    <title>Hairy Paws</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/assets/img/logo.png" alt="logo">
+  <!--BOXICONS-->
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <!--CSS-->
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <title>Hairy Paws</title>
 </head>
+
 <body>
+  <!-- HEADER -->
+  <header class="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">
+        <img src="/assets/img/logo.png" width="50px" height="auto" href="#" class="nav__logo" />
+      </a>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link">Inicio</a>
+          </li>
+          <li class="nav__item">
+            <a href="#adopta" class="nav__link">Adopta</a>
+          </li>
+          <li class="nav__item">
+            <a href="#usuarios" class="nav__link">Usuarios</a>
+          </li>
+          <li class="nav__item">
+            <a href="#nosotros" class="nav__link">Nosotros</a>
+          </li>
+          <li class="nav__item">
+            <a href="#descargar" class="nav__link">Descargar</a>
+          </li>
+          <li class="nav__item">
+            <a href="login.html" class="nav_button">Iniciar sesión</a>
+          </li>
+          <li class="nav__item">
+            <a href="register.html" class="nav_button">Registrarse</a>
+          </li>
+        </ul>
 
-    <!--header section starts-->
-    <header class="header">
-        <nav class="nav container">
-          <a href="#" class="nav__logo">
-            <img src="assets/img/logo.png" width="50px" height="auto" href="#" class="nav__logo" />
-          </a>
-          <div class="nav__menu" id="nav-menu">
-            <ul class="nav__list">
-              <li class="nav__item">
-                <a href="#home" class="nav__link">Inicio</a>
-              </li>
-              <li class="nav__item">
-                <a href="#adopta" class="nav__link">Adopta</a>
-              </li>
-              <li class="nav__item">
-                <a href="#usuarios" class="nav__link">Usuarios</a>
-              </li>
-              <li class="nav__item">
-                <a href="#nosotros" class="nav__link">Nosotros</a>
-              </li>
-              <li class="nav__item">
-                <a href="#descargar" class="nav__link">Descargar</a>
-              </li>
-            </ul>
-    
-            <div class="nav__close" id="nav-close">
-              <i class='bx bx-x'></i>
-            </div>
-          </div>
-    
-          <!-- Toggle button -->
-          <div class="nav__toggle" id="nav-toggle">
-            <i class='bx bx-grid-alt'></i>
-          </div>
-        </nav>
-      </header>
-
-    <!--header section ends-->
-
-    <!--home section stars-->
-
-    <section class="home" id="home">
-        <div class="home__container">
-          <div class="home__data">
-            <h1 class="home__description">
-              Amemos y protejamos
-              juntos a nuestros
-              compañeros animales en
-              este mundo, <span>¡adopta ya!</span>
-            </h1>
-            <p>
-              En HairyPaws, descubre un mundo lleno de
-              amor y compañía animal. Nuestra aplicación te
-              brinda la oportunidad de encontrar a tu
-              compañero peludo perfecto. Con una amplia
-              variedad de adorables mascotas disponibles
-              para adopción, HairyPaws es tu puerta de entrada
-              a una experiencia única de adopción de mascotas.
-            </p>
-            <a href="#adopta" class="home__button">
-              Conoce a nuestros amigos
-            </a>
-          </div>
+        <div class="nav__close" id="nav-close">
+          <i class='bx bx-x'></i>
         </div>
-      </section>
-    
-    <!--home section ends-->
+      </div>
 
-    <!--adopta section stars-->
+      <!-- Toggle button -->
+      <div class="nav__toggle" id="nav-toggle">
+        <i class='bx bx-grid-alt'></i>
+      </div>
+    </nav>
+  </header>
 
-     <section class="adopta" id="adopta">
+  <!--==================== HOME ====================-->
+  <section class="home" id="home">
+    <div class="home__container">
+      <div class="home__data">
+        <h1 class="home__description">
+          Amemos y protejamos
+          juntos a nuestros
+          compañeros animales en
+          este mundo, <span>¡adopta ya!</span>
+        </h1>
+        <p>
+          En HairyPaws, descubre un mundo lleno de
+          amor y compañía animal. Nuestra aplicación te
+          brinda la oportunidad de encontrar a tu
+          compañero peludo perfecto. Con una amplia
+          variedad de adorables mascotas disponibles
+          para adopción, HairyPaws es tu puerta de entrada
+          a una experiencia única de adopción de mascotas.
+        </p>
+        <a href="#adopta" class="home__button">
+          Conoce a nuestros amigos
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!--==================== ADOPTA ====================-->
+  <section class="adopta" id="adopta">
     <h1>¡Busca a tu <span>compañero!</span></h1>
     <h3>Estas son algunas de las mascotas en busca de un hogar</h3>
     <div class="card-container">
       <div class="card">
-        <img src="assets/img/gata1.jpg" alt="Gata en adopción">
+        <img src="/assets/img/gata1.jpg" alt="Gata en adopción">
         <h3>Luna</h3>
         <p>Luna es una gata gris suave con ojos verdes grandes. 
           Es tranquila, amable y le gusta jugar. Es una gran compañía 
@@ -95,21 +97,21 @@
         <button class="adoptar-btn">Adoptar</button>
       </div>
       <div class="card">
-        <img src="assets/img/perro2.jpg" alt="Perro en adopción">
+        <img src="/assets/img/perro2.jpg" alt="Perro en adopción">
         <h3>Max</h3>
         <p>Max es un perro Labrador Retriever marrón con un pelaje 
           brillante. Es cariñoso, juguetón y fiel</p>
         <button class="adoptar-btn">Adoptar</button>
       </div>
       <div class="card">
-        <img src="assets/img/conejo3.jpg" alt="Conejo en adopción">
+        <img src="/assets/img/conejo3.jpg" alt="Conejo en adopción">
         <h3>Simón</h3>
         <p>Simón es tranquilo, curioso y le encanta explorar su entorno. 
           Es un compañero amable y afectuoso que adora los mimos.</p>
         <button class="adoptar-btn">Adoptar</button>
       </div>
       <div class="card">
-        <img src="assets/img/moni.webp" alt="Conejo en adopción">
+        <img src="/assets/img/moni.webp" alt="Conejo en adopción">
         <h3>Moni</h3>
         <p>Moni es una gata blanca cariñosa y mimosa. Ama el sol y jugar
           entre las plantas. Le gustan las aventuras y es una gran compañía.
@@ -119,28 +121,24 @@
     </div>
   </section>
 
-    <!--adopta section ends-->
-
-    <!--usuarios section stars-->
-
-    <section class="usuarios" id="usuarios">
+  <section class="usuarios" id="usuarios">
     <h1>¿Qué dicen nuestros usuarios?</h1>
     <h3>Estas son algunas opiniones de personas que han utilizado nuestra aplicación</h3>
     <div class="usuarios-container">
       <div class="card-usuarios">
-        <img src="assets/img/mauricio.jpg" alt="Adoptante">
+        <img src="/assets/img/mauricio.jpg" alt="Adoptante">
         <h2>Mauricio</h2>
         <p> Adoptar a mi gato a través de esta aplicación ha sido una de las mejores decisiones que he tomado</p>
         <p class="usuarios-footer">Written by <span class="by-name">Mauricio</span> on <span class="date">05/05/23</span></p>
       </div>
       <div class="card-usuarios">
-        <img src="assets/img/sarita.jpg" alt="Adoptante">
+        <img src="/assets/img/sarita.jpg" alt="Adoptante">
         <h2>Sarita</h2>
         <p>Gracias a esta aplicación tengo un nuevo miembro de la familia que me brinda amor incondicional</p>
           <p class="usuarios-footer">Written by <span class="by-name">Sarita</span> on <span class="date">05/05/23</span></p>
       </div>
       <div class="card-usuarios">
-        <img src="assets/img/merino.jpeg" alt="Adoptante">
+        <img src="/assets/img/merino.jpeg" alt="Adoptante">
         <h2>Merino</h2>
         <p>Tenía miedo de adoptar una mascota pero con HairyPaws 
           el proceso fue rápido y sencillo, además que pude encontrar la ideal para mi.</p>
@@ -149,28 +147,24 @@
     </div>
   </section>
 
-<!--usuarios section ends-->
-
-    <!--nosotros section stars-->
-
-    <section class="nosotros" id="nosotros">
+  <section class="nosotros" id="nosotros">
     <h1>Team members</h1>
     <h3>Conoce un poco sobre los integrantes de nuestra startup GuardPets</h3>
     <div class="nosotros-container">
       <div class="nosotros-card">
-          <img src="assets/img/sofia.jpeg" alt="Sofia Alfaro">
+          <img src="/assets/img/sofia.jpeg" alt="Sofia Alfaro">
           <h3>Sofia Alfaro</h3>
-        <p class="carrera">Estudiante dee Ingeniería de Software</p>
+        <p class="carrera">Estudiante de Ingeniería de Software</p>
         <p>Me considero una persona que cuenta con capacidades como el liderazgo en situaciones importantes</p>
       </div>
       <div class="nosotros-card">
-        <img src="assets/img/anthony.png" alt="Anthony Loarte">
+        <img src="/assets/img/anthony.png" alt="Anthony Loarte">
         <h3>Anthony Loarte</h3>
         <p class="carrera">Estudiante de Ingeniería de Software</p>
         <p>Me apasiona todo lo relacionado a la tecnología, los avances tecnológicos y los procesos de arquitectura para el desarrollo de software.</p>
       </div>
       <div class="nosotros-card">
-        <img src="assets/img/bruce.jpeg" alt="Bruce Cipriano">
+        <img src="/assets/img/bruce.jpeg" alt="Bruce Cipriano">
         <h3>Bruce Cipriano</h3>
         <p class="carrera">Estudiante de Ingeniería de Software</p>
         <p>Me gustó la carrera porque siempre quería saber sobre cómo funcionaban las computadoras, teléfonos, todos los aparatos electrónicos.</p>
@@ -178,13 +172,13 @@
     </div>
     <div class="nosotros-container">
       <div class="nosotros-card">
-        <img src="assets/img/joseph.png" alt="Joseph Herrera">
+        <img src="" alt="Josehp Herrera">
         <h3>Josehp Herrera</h3>
         <p class="carrera">Estudiante de Ingeniería de Software</p>
         <p>Tengo 19 años y actualmente me encuentro cursando el cuarto ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas</p>
       </div>
       <div class="nosotros-card">
-        <img src="assets/img/randy.png" alt="Randy Rengifo">
+        <img src="" alt="Randy Rengifo">
         <h3>Randy Rengifo</h3>
         <p class="carrera">Estudiante de Ingeniería de Software</p>
         <p>Cuanto con conocimientos básicos en C + + y HTML. Me considero una persona proactiva, perseverante, responsable y sobre todo divertido.</p>
@@ -192,98 +186,85 @@
     </div>
   </section>
 
-<!--nosotros section ends-->
-
-
-<!--descargar section stars-->
-
-    <section class="descargar" id="descargar">
+  <section class="descargar" id="descargar">
     <h1>Descarga ahora</h1>
     <div class="descargar_container container">
       <div class="column">
-        <img src="assets/img/mockup.png" class="mockup"/>
+        <img src="/assets/img/mockup.png" class="mockup"/>
       </div>
       <div class="column">
         <h3>Encuentra nuestra app en tus plataformas favoritas</h3>
         <p>Disponible en para Android y iOS</p>
-        <a href="#"><img src="assets/img/appstore.png" class="store"/></a>
-        <a href="#"><img src="assets/img/googleplay.png" class="store"/></a>
+        <a href="#"><img src="/assets/img/appstore.png" class="store"/></a>
+        <a href="#"><img src="/assets/img/googleplay.png" class="store"/></a>
       </div>
     </div>
   </section>
 
-<!--descargar section ends-->
+  <section id="contacto" class="contacto">
 
-    <!--contacto section stars-->
+    <div class="formulario_contacto">
+        <h2 class="tituloFormulario">Contáctanos</h2>
+        <p class="descripcionFormulario">Envíanos cualquier duda y/o consulta respecto a Hairy Paws</p>
+        <input
+          type="text"
+          name=""
+          id="nombre"
+          class="input"
+          placeholder="Nombre"
+        />
+        <input
+          type="email"
+          name=""
+          id="email"
+          class="input"
+          placeholder="Email"
+        />
+        <textarea
+          name=""
+          id="mensaje"
+          cols="30"
+          rows="10"
+          class="input"
+          placeholder="Ingresa tu mensaje aquí"
+        ></textarea>
+        <button class="btn_EnviarFormulario">Enviar Mensaje</button>
+    </div>
 
-    <section id="contacto" class="contacto">
-
-        <div class="formulario_contacto">
-            <h2 class="tituloFormulario">Contáctanos</h2>
-            <p class="descripcionFormulario">Envíanos cualquier duda y/o consulta respecto a Hairy Paws</p>
-            <input
-              type="text"
-              name=""
-              id="nombre"
-              class="input"
-              placeholder="Nombre"
-            />
-            <input
-              type="email"
-              name=""
-              id="email"
-              class="input"
-              placeholder="Email"
-            />
-            <textarea
-              name=""
-              id="mensaje"
-              cols="30"
-              rows="10"
-              class="input"
-              placeholder="Ingresa tu mensaje aquí"
-            ></textarea>
-            <button class="btn_EnviarFormulario">Enviar Mensaje</button>
-        </div>
-    
-    </section>
-
-    <!--contacto section ends-->
-
-    <!--=============== SCROLLREVEAL ===============-->
-  <script src="assets/js/main.js"></script>
+</section>
+  <!--=============== SCROLLREVEAL ===============-->
+  <script src="assets/js/scrollreveal.min.js"></script>
 
   <!--=============== MAIN JS ===============-->
-  <script src="assets/js/scrollreveal.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
 </body>
-<!--footersection stars-->
-
 <footer>
-    <div class="hp_footer">
-        <div class="columna">
-          <p class="tituloFooter">Vísitanos</p>
-          <ul>
-            <li>
-              Calle de las Mascotas #456, Distrito de Amor y Amistad, Lima,
-              Perú.
-            </li>
-            <br />
-            <li>
-              Avenida de los Perritos #789, Urbanización Amigos Fieles,
-              Trujillo, Perú.
-            </li>
-          </ul>
-        </div>
-        <div class="columna">
-          <p class="tituloFooter">Contáctanos</p>
-          <ul>
-            <li>+51 987 654 321</li>
-            <br />
-            <li>+51 955 555 555</li>
-          </ul>
-        </div>
+  <div class="hp_footer">
+      <div class="columna">
+        <p class="tituloFooter">Vísitanos</p>
+        <ul>
+          <li>
+            Calle de las Mascotas #456, Distrito de Amor y Amistad, Lima,
+            Perú.
+          </li>
+          <br />
+          <li>
+            Avenida de los Perritos #789, Urbanización Amigos Fieles,
+            Trujillo, Perú.
+          </li>
+        </ul>
       </div>
-  </footer>  
+      <div class="columna">
+        <p class="tituloFooter">Contáctanos</p>
+        <ul>
+          <li>+51 987 654 321</li>
+          <br />
+          <li>+51 955 555 555</li>
+        </ul>
+      </div>
+    </div>
+</footer>
 
-    <!--footer section ends-->
+
 </html>
